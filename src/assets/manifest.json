@@ -8,7 +8,10 @@
     "128": "icon128.png"
   },
   "action": {
-    "default_popup": "index.html",
+    "default_popup": "page.html",
     "default_title": "Open the popup"
+  },
+  "chrome_url_overrides": {
+    "newtab": "extention.html"
   }
 }

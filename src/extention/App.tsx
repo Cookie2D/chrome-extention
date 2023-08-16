@@ -1,11 +1,10 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = React.useState(0);
   return (
     <>
-      <h1>Hello world</h1>
+      <h1>Hello world2</h1>
       <button onClick={() => setCount(count + 1)}>{count}</button>
     </>
   );
